@@ -1,0 +1,101 @@
+.weather {
+  position: relative;
+  height: 100px;
+  width: 280px;
+  color: white;
+  overflow: hidden;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  background-image: url("../../public/icons/cancel.svg");
+}
+
+.icon-container {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 150px;
+}
+
+.temperature-city {
+  padding-top: 20px;
+  padding-left: 10px;
+  position: relative;
+  float: left;
+}
+
+.temperature {
+  font-size: 2rem;
+  padding-bottom: 15px;
+}
+
+.city {
+  margin-top: 5px;
+}
+
+.celsius {
+  position: absolute;
+  display: inline;
+  top: 28px;
+  font-size: 9px;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.pelorous {
+  background-color: rgba(70, 166, 180, 255);
+}
+
+.black {
+  background-color: black;
+}
+
+.icon {
+  width: 80px;
+}
+
+.moon {
+  background-image: url("../../public/icons/3.svg");
+  background-size: 200px 100px;
+  background-repeat: no-repeat;
+  margin-left: -53px;
+}
+
+.sun {
+  background-image: url("../../public/icons/2.svg");
+  background-size: 200px 100px;
+  background-repeat: no-repeat;
+  margin-left: -53px;
+}
+
+.cloudy {
+  background-image: url("../../public/icons/8.svg");
+  background-size: 200px 80px;
+  background-repeat: no-repeat;
+  margin-left: -53px;
+  margin-top: 10px;
+}
+
+.snow {
+  background-image: url("../../public/icons/24.svg");
+  background-size: 200px 80px;
+  background-repeat: no-repeat;
+  margin-left: -53px;
+  margin-top: 10px;
+}
+
+.clear {
+  background-image: url("../../public/icons/14.svg");
+  background-size: 200px 80px;
+  background-repeat: no-repeat;
+  margin-left: -53px;
+  margin-top: 10px;
+}

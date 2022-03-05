@@ -1,0 +1,15 @@
+.footer {
+  background-color: rgba(70, 166, 180, 255);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+}
+.footer-text {
+  float: right;
+  font-size: 15px;
+  font-weight: 600;
+  padding-right: 1180px;
+  color: white;
+  padding-top: 18px;
+}

@@ -1,0 +1,40 @@
+.header {
+  background-color: rgba(70, 166, 180, 255);
+  padding-left: 67.05px;
+  font-weight: 600;
+  font-size: 20px;
+  height: 90px;
+}
+
+.image {
+  position: relative;
+  float: left;
+  width: 10%;
+  padding-top: 15px;
+}
+
+.weather-text {
+  position: relative;
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    width: 100px;
+  }
+
+  .header {
+    height: 75px;
+    padding-left: 40px;
+  }
+
+  .weather-text {
+	padding-top: 20px;
+	padding-left: 15px;
+  }
+}
